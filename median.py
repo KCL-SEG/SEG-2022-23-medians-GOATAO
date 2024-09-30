@@ -9,4 +9,5 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+
+print(((numbers[len(numbers) // 2 - 1] + numbers[len(numbers) // 2]) / 2) if (len(numbers) % 2 == 0) else (numbers[len(numbers) // 2]))
